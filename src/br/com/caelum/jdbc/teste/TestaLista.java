@@ -18,9 +18,6 @@ public class TestaLista {
 		System.out.println("Nome: " + contato.getNome());
 		System.out.println("Email: " + contato.getEmail());
 		System.out.println("Endereço: " + contato.getEndereco());
-	//	System.out.println("Data de Nascimento: " +
-		//contato.getDataNascimento().getTime() + "\n");
-		//Padrao SQL
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm");
 		//yyyy = Ano,MM = Mês,dd=Dia,hh  = Hora(HH maiusculo padrao 24hrs) e mm é minuto
 		String dataAtual = sdf.format(new Date());
